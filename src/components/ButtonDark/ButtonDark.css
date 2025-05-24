@@ -1,0 +1,61 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.button-dark {
+    display: inline-block;
+    position: relative;
+    padding: 0.4rem 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    
+    border-radius: 0;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    
+    line-height: 1;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s 0.08s; 
+}
+
+.button-dark::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: white;
+    z-index: -1;
+    transition: width 0.4s;
+}
+
+.button-dark:hover::before {
+    width: 100%;
+}
+
+.button-dark:hover {
+    color: #ffffff;
+}
+
+/* Add dark mode styles for ButtonDark */
+.dark-theme .button-dark {
+    color: #cc2936;
+    border-color: #cc2936;
+}
+
+.dark-theme .button-dark::before {
+    background-color: #cc2936;
+}
+
+.dark-theme .button-dark:hover {
+    color: white;
+}
