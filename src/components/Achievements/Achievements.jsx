@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import achievements from '../../assets/files/AchievementsDetails';
+import ButtonLight from '../ButtonLight/ButtonLight';
 import './Achievements.css';
 
 const Achievements = () => {
@@ -51,18 +52,20 @@ const Achievements = () => {
                         <h4>{achievement.organization}</h4>
                         <p>{achievement.summary}</p>
                         {achievement.link && (
-                            <a href={achievement.link} target="_blank" rel="noopener noreferrer">
-                                {achievement.linkText || "View Details"}
-                            </a>
+                            <ButtonLight 
+                                text={achievement.linkText || "View Details"} 
+                                link={achievement.link}
+                            />
                         )}
                     </div>
                 </div>
             ))}
             {achievements.length > 3 && (
                 <div className="toggle-button" onClick={toggleAchievements}>
-                    <a href="#" onClick={(e) => { e.preventDefault(); toggleAchievements(); }}>
-                        {showAllAchievements ? "Show Less" : "Show More"}
-                    </a>
+                    <ButtonLight 
+                        text={showAllAchievements ? "Show Less" : "Show More"} 
+                        onClick={toggleAchievements}
+                    />
                 </div>
             )}
         </div>
