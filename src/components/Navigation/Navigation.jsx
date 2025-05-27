@@ -25,7 +25,8 @@ const Navigation = () => {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#achievements">Achievements</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>            
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -34,3 +35,6 @@ const Navigation = () => {
 }
 
 export default Navigation;
+
+
+
