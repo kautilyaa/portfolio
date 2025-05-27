@@ -1,36 +1,21 @@
 const work = [
     {
-        name: `University of Maryland`,
-        time: `August 2024 - Present`,
-        location: `College Park, MD, USA`,
-        role: `Teaching Assistant`,
-        summary: `Assisted professors in the courses Principles of Data Science, Principles of Machine Learning, and Algorithms of Data Science. Led discussions, mentored students, and evaluated coding assignments, reports, and research papers. I learnt to communicate complex AI and data science concepts clearly while fostering an engaging learning environment for students.`,
-        image: `images/umd.jpeg`
-    },
-    {
-        name: `Ecolab Inc.`,
-        time: `June 2024 - August 2024`,
-        location: `Naperville, IL, USA`,
-        role: `Data Science Graduate Intern`,
-        summary: `Transformed model validation by building a comprehensive validation dataset from past model results and action logs to improve accuracy in monitoring sensor data for cooling towers. Additionally, I developed a synthetic sensor reading generator algorithm that streamlined the validation process, making it more efficient and robust—directly enhancing the performance of deployed machine learning models.`,
-        image: `images/ecolab.jpeg`
-    },
-    {
-        name: `ReWorked.ai`,
-        time: `April 2024 - May 2024`,  
-        location: `Miami, FL, USA`,
-        role: `Machine Learning Engineer`,
-        summary: `Designed a cutting-edge ML model combining classical Bayesian statistics and advanced ensemble learning to predict the likelihood of individuals purchasing solar panels. This innovative model successfully identified new leads in previously untapped regions of the U.S., driving business growth and expanding market reach. `,
-        image: `images/reworkedai.jpeg`
-    },
-    {
-        name: `Latlong (ONZE Technologies Pvt. Ltd.)`,
-        time: `September 2022 - June 2023`,
-        location: `Bengaluru, KA, India`,
+        name: `UnitedHealth Group (Optum Global Solutions)`,
+        time: `April 2023 - June 2024`,
+        location: `Noida, UP, India`,
         role: `Data Scientist`,
-        summary: `Engineered a powerful data extraction tool to process demographic data from multilingual public documents, seamlessly integrating it with geo-spatial data for in-depth regional analysis. Additionally, developed a visualization tool that empowered companies to identify underperforming areas and competitor-dominated regions, driving operational efficiency and profitability in sectors like finance and automotive.`,
-        image: `images/onze.jpeg`
+        summary: `• Developed machine learning models for automated document processing, reducing processing time by 40% and increasing throughput by 32%.\n• Patented an image similarity model that improved document matching accuracy.\n• Deployed NLP micro-services on Azure PaaS, automating data extraction and reducing manual effort by 55%.\n• Applied MPNet transformers for non-templated form matching, delivering 96% accuracy with 42% lower latency.\n• Integrated LiLT + RoBERTa layout parsing to achieve 83% zone-classification and 92% table-extraction accuracy on DocLayNet.\n• Refactored TensorFlow + OpenCV-based OCR pipeline for 45,000+ forms/month, reducing compute time by 40%.`,
+        image: `images/unitedhealth_group_logo.jpeg`
     },
+    {
+        name: `UnitedHealth Group (Optum Global Solutions)`,
+        time: `July 2021 - March 2023`,
+        location: `Guragaon, HR, India`,
+        role: `Associate Data Scientist`,
+        summary: `• Designed and implemented OCR-based text matching and edge extraction modules with validation and auto-correction.\n• Enhanced document-structure recognition using deep-learning layout parsers, achieving 87% accuracy on DocLayNet.\n• Optimised OCR workflows, reducing per-file processing time from 60s to 30s and increasing throughput from 5 to 24 files/min via concurrency and load balancing.\n• Converted R&D prototypes into robust ML services, achieving 96% accuracy and 42% faster inference.\n• Built and deployed real-time drift-monitoring dashboards for eight production models, enabling proactive model performance management.`,
+        image: `images/unitedhealth_group_logo.jpeg`
+    },
+    
 ];
 
 

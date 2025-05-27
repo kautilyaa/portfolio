@@ -87,7 +87,7 @@ html {
     left: 50%;
     transform: translateX(-50%);
     background-color: #333333;
-    color: white;
+    color: rgb(249, 248, 248);
     padding: 0.5rem;
     border-radius: 0.5rem;
     font-size: 0.6rem;

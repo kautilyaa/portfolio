@@ -23,7 +23,8 @@ html {
     z-index: 1;
     cursor: pointer;
     overflow: hidden;
-    transition: color 0.4s 0.08s; 
+    transition: all 0.4s ease;
+    background: transparent;
 }
 
 .button-dark::before {
@@ -35,20 +36,23 @@ html {
     width: 0;
     background-color: white;
     z-index: -1;
-    transition: width 0.4s;
+    transition: width 0.4s ease;
+}
+
+.button-dark:hover {
+    color: #08415c;
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(8, 65, 92, 0.2);
 }
 
 .button-dark:hover::before {
     width: 100%;
 }
 
-.button-dark:hover {
-    color: #ffffff;
-}
-
-/* Add dark mode styles for ButtonDark */
+/* Dark mode styles for ButtonDark */
 .dark-theme .button-dark {
-    color: #cc2936;
+    color: white;
     border-color: #cc2936;
 }
 
@@ -57,5 +61,8 @@ html {
 }
 
 .dark-theme .button-dark:hover {
-    color: white;
+    color: #cc2936;
+    background: var(--card-bg);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(204, 41, 54, 0.2);
 }

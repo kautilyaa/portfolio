@@ -1,27 +1,105 @@
 const skills = [
   {
     title: "Machine Learning & Artificial Intelligence",
-    content: ["TensorFlow", "Keras", "Scikit-learn", "PyTorch", "HuggingFace", "OpenCV", "LangChain", "SpaCy", "NLTK"],
+    content: [
+      "Scikit-learn",
+      "TensorFlow",
+      "Keras",
+      "PyTorch",
+      "XGBoost",
+      "OpenCV",
+      
+      "LayoutParser",
+      "Model Stacking",
+      "Predictive Modeling",
+      "Regression & Classification"
+    ],
   },
   {
-    title: "Probability & Statistics",
-    content: ["Bayesian Inference", "Causal Inference", "Hypothesis Testing", "Monte Carlo Methods"]
+    title: "Generative AI & LLMs",
+    content: [
+      "Large Language Models (LLMs)",
+      "Retrieval-Augmented Generation (RAG)",
+      "Agentic AI Systems",
+      "LLM Fine-tuning",
+      "Prompt Engineering",
+      "LangChain",
+      "OpenAI APIs",
+      "HuggingFace Transformers",
+      "Azure OpenAI",
+      "Multi-modal LLM Integration"
+    ]
+  },
+  {
+    title: "Computer Vision & NLP",
+    content: [
+      "OpenCV",
+      "cv2",
+      "OCR Pipelines",
+      "Roberta",
+      "Tesseract OCR",
+      "Document Intelligence (Azure AI)",
+      "SpaCy",
+      "NLTK"//,
+      // "Japanese-English Manga Translation",
+      // "Text Segmentation & Inpainting"
+    ]
+  },
+  {
+    title: "Statistics & Modeling",
+    content: [
+      "Feature Engineering",
+      // "Clustering",
+      "Hypothesis Testing",
+      "Statistical Analysis",
+      "Bayesian Inference"//,
+      // "Causal Inference",
+      // "Monte Carlo Methods"
+    ]
   },
   {
     title: "Programming Languages",
-    content: ["Python", "R", "MATLAB", "C/C++", "Go", "Node.js"],
+    content: ["Python", "SQL", "C", "C++", "Java", "Unix Shell"],
   },
   {
-    title: "Databases & Big Data",
-    content: ["PostgreSQL", "MongoDB", "Redis", "FAISS", "ChromaDB", "Neo4j", "Spark"],
+    title: "Data Platforms & Big Data",
+    content: [
+      "Apache Spark",
+      "Databricks",
+      "FAISS",
+      "S3 Buckets",
+      "Azure Synapse",
+      "Big Data Pipelines",
+      "ChromaDB"
+    ]
   },
   {
-    title: "Cloud Computing & Dev Ops",
-    content: ["Amazon Web Services (AWS)", "Microsoft Azure", "Databricks", "Docker", "Git/GitHub"]
+    title: "Cloud Computing & DevOps",
+    content: [
+      "Microsoft Azure",
+      "Amazon Web Services (AWS)",
+      "Azure App Services",
+      "Azure Container Registry",
+      "Azure Cognitive Services",
+      "Azure Function Apps",
+      "Docker",
+      "Git/GitHub",
+      "Anaconda"
+    ]
   },
   {
-    title: "Web Frameworks and Libraries",
-    content: ["Streamlit", "Flask", "Django", "Gin", "Fiber", "React.js"]
+    title: "Web & Visualization Tools",
+    content: [
+      "Streamlit",
+      "Flask",
+      "Django",
+      "Postman",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly",
+      "FastAPI"
+      // "Tableau (basic)"
+    ]
   }
 ];
 

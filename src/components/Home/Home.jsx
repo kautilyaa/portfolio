@@ -6,7 +6,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div id="home" className='home'>
-      <h1 className="slideIn">Hello there! My name is <span>Arunbh Yashaswi.</span></h1>
+      <h1 className="slideIn">Hello Everyone! My name is <span>Arunbh Yashaswi.</span></h1>
       <div className='type-animation slideIn'>
         <TypeAnimation
           sequence={[

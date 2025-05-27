@@ -10,6 +10,7 @@ import Professional from "./components/Professional/Professional";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import BackgroundEffects from "./components/BackgroundEffects/BackgroundEffects";
+import Achievements from "./components/Achievements/Achievements";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import "./App.css";
@@ -26,6 +27,7 @@ class App extends React.Component {
         <Skills />
         <Projects />
         <Education />
+        <Achievements />
         <Contact />
         <Footer />
       </div>
